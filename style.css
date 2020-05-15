@@ -1,0 +1,307 @@
+/*=== Global Settings ===*/
+
+html, body{
+	margin:0;
+    padding:0;
+	background:#e4e2e2;
+	font-family: arial, tahoma,'Trebuchet MS';
+	height:100%;
+	background:url(imagenes/headerbg-blue.jpg) repeat-x top left #e4e2e2;
+}
+
+/*=== Formatting ===*/
+
+body, img, ul, ol, li, form, blockquote {margin: 0; padding: 0;}
+p {line-height:1em; padding: 5px 0;}
+a, a:visited {color: #0000FF; text-decoration: underline;}
+a:hover {text-decoration: none;}
+a img {border: none;}
+strong, b {font-weight: bold;}
+em, i {font-style: oblique;}
+
+/*=== Wrapper ===*/
+
+#wrapper{
+	position:relative;
+	margin:0 auto;
+	padding:0;
+	width:914px;
+}
+
+#header{
+	margin:0;
+	padding:0;
+	width:914px;
+	height:100px;
+	background:url(imagenes/header.png) no-repeat;
+}
+
+#header h1{
+	font-family:Verdana, Arial;
+	font-weight:bold;
+	line-height:1em;
+    margin:0 0 0 30px;
+    padding:45px 0 0;
+    font-style:italic;
+}
+
+#downarrow img {
+	position:absolute;
+	border:none;
+	top:0;
+	float:right;
+	margin:0 0 0 650px;
+	padding:0;
+	z-index:1000;
+}
+
+
+/*=== Squeeze Page Area ===*/
+
+#videobody{
+	margin:0;
+	padding:0 0 20px 0;
+	width:914px;
+	background:url(imagenes/bodybg.png) repeat-y;
+	overflow:hidden;
+	height:auto;
+}
+
+#videobody #leftcontent {
+	margin:20px 0 20px 10px;
+	padding:0;
+	width:525px;
+	text-align:center;
+}
+
+#videobody #smallvideo {
+	width:auto;
+	padding:0;
+	margin:0;
+
+}
+
+/*=== Content Area ===*/
+
+.leftside {
+	width:555px;
+	float:left;
+	padding:0 0 0 20px;
+	margin:0;
+	border-right:1px solid #ececec;
+}
+
+.leftside p{
+	line-height:1.2em;
+    font-size:15px;
+}
+
+.leftside h2{
+	font-family:Verdana, Arial;
+	font-size:55px;
+	margin:10px auto;
+	width:500px;
+	text-align:center;
+	color:#cc0000;
+}
+
+.leftside h2 .headline {
+	font-family:Verdana, Arial;
+	font-size:40px;	
+}
+
+
+/*=== Right Side Area ===*/
+
+.rightside{
+	width:300px;
+	float:right;
+    padding: 0 15px 0 0;
+    margin:100px 0 0;
+	text-align:center;
+}
+
+.rightside h3{
+	font-family:Verdana, Arial;
+	margin:10px 20px 10px 10px;
+	text-align:center;
+	font-size:28px;
+}
+
+.rightside .optin{
+	font-size:11px;
+	font-family:Arial, verdana, sans-serif;
+	text-align:center;
+	color:#000;
+}
+
+.rightside .optin p{
+	font-size:13px;
+	font-family:arial, verdana;
+	text-align:center;
+	color:#000;
+	padding:0 5px;
+}
+
+/*=== Autoresponder Code Area ===*/
+
+#emailcode {
+	margin:25px 0 0; 
+	padding:0;
+}
+
+#emailcode .namefield{
+	margin:10px 0 0 0; 
+	padding:0;
+	width:230px;
+	height:35px;
+	line-height:35px;
+	border:2px solid #bababa;
+	text-align:center;
+	font-size:15px;
+	color:#404040;
+	font-weight:bold;
+	background:#ececec;
+}
+
+#emailcode .emailfield{
+	margin:5px 0 10px 0; 
+	padding:0;
+	width:230px;
+	height:35px;
+	line-height:35px;
+	border:2px solid #bababa;
+	text-align:center;
+	font-size:15px;
+	color:#404040;
+	background:#ececec;
+	font-weight:bold;
+}
+
+#emailcode .button img {
+	margin:0; 
+	padding:0;
+}
+
+#disclaimer {
+	width:230px;
+	margin:10px 0 0 35px;
+	padding:0;
+	background:url(imagenes/lock.jpg) no-repeat;
+}
+
+#disclaimer img{
+	overflow:hidden;
+	float:left;
+    margin:0 10px 0 35px;
+}
+
+#disclaimer p{
+	margin:0 0 0 20px;
+	padding: 0 10px 0 0;
+	font-size:9px;
+	color:#999792;
+	font-family:Arial, Verdana, Tahoma;
+	text-align:left;
+}
+
+/*=== Footer Area ===*/
+
+#footer{
+	margin:0 auto;
+	padding:0;
+	width:914px;
+	background:url(imagenes/footer.png) no-repeat;
+	text-align:center;
+	overflow:hidden;
+}
+
+.footerlinks{
+	margin:35px 0 0;
+	padding:0;
+	text-align:center;
+	font-size:14px;
+    color:#6b6b6b;
+}
+
+.footerlinks a, .footerlinks a:visited{
+	color:#6b6b6b;
+	font-size:14px;
+    text-decoration:none;
+}
+
+.footerlinks a:hover{
+    text-decoration:underline;
+}
+
+.credit {
+	padding:0;
+	margin:10px 0 0;
+	text-align:center;
+}
+
+.credit a, .credit a:visited{
+	color:#6b6b6b;
+	font-size:10px;
+    text-decoration:none;
+}
+
+.credit a:hover{
+    text-decoration:underline;
+}
+
+/*=== Download or Blank Page ===*/
+
+.blank {
+	margin:0 auto;
+	padding:0 20px;
+	width:550px;
+	text-align:center;
+}
+
+.blank h2{
+	font-family:Verdana, Arial;
+	font-size:55px;
+	margin:10px auto;
+	text-align:center;
+	border-bottom: 2px dotted #bababa;
+}
+
+.blank h3{
+	font-family:Verdana, Arial;
+	margin:10px auto 30px;
+	text-align:center;
+	font-size:20px;
+}
+
+.blank h4{
+	font-family:Verdana, Arial;
+	margin:10px auto 20px;
+	padding:3px;
+	text-align:center;
+	font-size:20px;
+}
+
+.blank p{
+	margin:0 auto;
+	padding:20px;
+	width:510px;
+	font-size:14px;
+	text-align:left;
+}
+
+.blank img{
+	border:none;
+	margin:20px auto 0;
+	margin:auto;
+}
+
+.dlbg {
+	background:#ececec;
+	width:530px;
+	padding:10px;
+}
+
+.dlbg p{
+	padding:10px 0;
+}
