@@ -107,7 +107,7 @@ em, i {font-style: oblique;}
 
 .leftside h2 .headline {
 	font-family:Verdana, Arial;
-	font-size:40px;	
+	font-size:40px;
 }
 
 
@@ -144,14 +144,44 @@ em, i {font-style: oblique;}
 }
 
 /*=== Autoresponder Code Area ===*/
+form{
+  font-size: 20px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 220px;
+
+}
+
+input, text{
+  border: 1;
+	border-color: #33B2FF;
+  width: 200px;
+}
+
+.form-control {
+  background-color: white;
+  padding: 6px;
+}
+
+.fiel:focus{
+  border-color: #18A383;
+}
+
+.btn {
+    background-color: #33B2FF;
+    padding: 10px;
+
+}
 
 #emailcode {
-	margin:25px 0 0; 
+	margin:25px 0 0;
 	padding:0;
 }
 
 #emailcode .namefield{
-	margin:10px 0 0 0; 
+	margin:10px 0 0 0;
 	padding:0;
 	width:230px;
 	height:35px;
@@ -165,7 +195,7 @@ em, i {font-style: oblique;}
 }
 
 #emailcode .emailfield{
-	margin:5px 0 10px 0; 
+	margin:5px 0 10px 0;
 	padding:0;
 	width:230px;
 	height:35px;
@@ -179,7 +209,7 @@ em, i {font-style: oblique;}
 }
 
 #emailcode .button img {
-	margin:0; 
+	margin:0;
 	padding:0;
 }
 
