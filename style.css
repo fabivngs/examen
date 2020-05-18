@@ -175,65 +175,6 @@ input, text{
 
 }
 
-#emailcode {
-	margin:25px 0 0;
-	padding:0;
-}
-
-#emailcode .namefield{
-	margin:10px 0 0 0;
-	padding:0;
-	width:230px;
-	height:35px;
-	line-height:35px;
-	border:2px solid #bababa;
-	text-align:center;
-	font-size:15px;
-	color:#404040;
-	font-weight:bold;
-	background:#ececec;
-}
-
-#emailcode .emailfield{
-	margin:5px 0 10px 0;
-	padding:0;
-	width:230px;
-	height:35px;
-	line-height:35px;
-	border:2px solid #bababa;
-	text-align:center;
-	font-size:15px;
-	color:#404040;
-	background:#ececec;
-	font-weight:bold;
-}
-
-#emailcode .button img {
-	margin:0;
-	padding:0;
-}
-
-#disclaimer {
-	width:230px;
-	margin:10px 0 0 35px;
-	padding:0;
-	background:url(imagenes/lock.jpg) no-repeat;
-}
-
-#disclaimer img{
-	overflow:hidden;
-	float:left;
-    margin:0 10px 0 35px;
-}
-
-#disclaimer p{
-	margin:0 0 0 20px;
-	padding: 0 10px 0 0;
-	font-size:9px;
-	color:#999792;
-	font-family:Arial, Verdana, Tahoma;
-	text-align:left;
-}
 
 /*=== Footer Area ===*/
 
