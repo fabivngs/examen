@@ -42,7 +42,7 @@ em, i {font-style: oblique;}
 	line-height:1em;
     margin:0 0 0 30px;
     padding:45px 0 0;
-    font-style:italic;
+    font-style:;
 }
 
 #downarrow img {
@@ -64,7 +64,7 @@ em, i {font-style: oblique;}
 	width:914px;
 	background:url(imagenes/bodybg.png) repeat-y;
 	overflow:hidden;
-	height:auto;
+
 }
 
 #videobody #leftcontent {
@@ -107,7 +107,7 @@ em, i {font-style: oblique;}
 
 .leftside h2 .headline {
 	font-family:Verdana, Arial;
-	font-size:40px;	
+	font-size:40px;
 }
 
 
@@ -144,66 +144,37 @@ em, i {font-style: oblique;}
 }
 
 /*=== Autoresponder Code Area ===*/
+form{
+  font-size: 20px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border: 5px dashed rgba(0, 200, 255, 0.8);
+  width: 220px;
 
-#emailcode {
-	margin:25px 0 0; 
-	padding:0;
 }
 
-#emailcode .namefield{
-	margin:10px 0 0 0; 
-	padding:0;
-	width:230px;
-	height:35px;
-	line-height:35px;
-	border:2px solid #bababa;
-	text-align:center;
-	font-size:15px;
-	color:#404040;
-	font-weight:bold;
-	background:#ececec;
+input, text{
+  border: 1;
+	border-color: #33B2FF;
+  width: 200px;
 }
 
-#emailcode .emailfield{
-	margin:5px 0 10px 0; 
-	padding:0;
-	width:230px;
-	height:35px;
-	line-height:35px;
-	border:2px solid #bababa;
-	text-align:center;
-	font-size:15px;
-	color:#404040;
-	background:#ececec;
-	font-weight:bold;
+.form-control {
+  background-color: white;
+  padding: 6px;
 }
 
-#emailcode .button img {
-	margin:0; 
-	padding:0;
+.fiel:focus{
+  border-color: #18A383;
 }
 
-#disclaimer {
-	width:230px;
-	margin:10px 0 0 35px;
-	padding:0;
-	background:url(imagenes/lock.jpg) no-repeat;
+.btn {
+    background-color: #33B2FF;
+    padding: 10px;
+
 }
 
-#disclaimer img{
-	overflow:hidden;
-	float:left;
-    margin:0 10px 0 35px;
-}
-
-#disclaimer p{
-	margin:0 0 0 20px;
-	padding: 0 10px 0 0;
-	font-size:9px;
-	color:#999792;
-	font-family:Arial, Verdana, Tahoma;
-	text-align:left;
-}
 
 /*=== Footer Area ===*/
 
@@ -299,7 +270,7 @@ em, i {font-style: oblique;}
 .dlbg {
 	background:#ececec;
 	width:530px;
-	padding:10px;
+	padding:15px;
 }
 
 .dlbg p{
